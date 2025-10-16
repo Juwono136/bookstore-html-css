@@ -145,7 +145,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
   }
 
   .hero {
@@ -157,19 +157,20 @@ body {
     width: 300px;
   }
 
-  .hero-info h1 {
-    font-size: 1.5rem;
-    text-align: center;
-  }
-
   .hero-info {
-    display: flex;
     justify-content: center;
     align-items: center;
   }
 
-  .hero-info p {
-    font-size: 1rem;
+  .hero-info h1 {
     text-align: center;
+    font-size: 1.5rem;
+  }
+
+  .hero-info p {
+    text-align: center;
+    font-size: 1rem;
   }
 }
+
+/* Tablets version */
